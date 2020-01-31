@@ -41,7 +41,7 @@
         />
 
     <Button
-        android:id="@+id/btn_search_by_category"
+        android:id="@+id/btn_search_by_ingredient"
         android:layout_width="146dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/search_cocktail"
