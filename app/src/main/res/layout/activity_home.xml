@@ -24,7 +24,7 @@
         android:textColor="@color/colorTextIcons"
         />
     <Button
-        android:id="@+id/findRestaurantsButton"
+        android:id="@+id/explore_cocktails"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
