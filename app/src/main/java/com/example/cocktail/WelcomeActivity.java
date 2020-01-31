@@ -13,7 +13,7 @@ import butterknife.ButterKnife;
 
 public class WelcomeActivity extends AppCompatActivity implements View.OnClickListener {
 
-    @BindView(R.id.search_cocktail) EditText searchCoctailText;
+    @BindView(R.id.search_cocktail) EditText searchCocktailText;
     @BindView(R.id.btn_search_by_name) Button btnSearchByName;
     @BindView(R.id.btn_search_by_ingredient) Button btnSearchByIngredient;
 
@@ -23,16 +23,18 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_welcome);
         ButterKnife.bind(this);
         btnSearchByName.setOnClickListener(this);
+        btnSearchByIngredient.setOnClickListener(this);
+
     }
     @Override
     public void onClick(View v){
         if(v==btnSearchByName){
-            String search = searchCoctailText.getText().toString();
+            String search = searchCocktailText.getText().toString();
             Intent intent = new Intent(WelcomeActivity.this, CocktailsListView.class);
             intent.putExtra("search", search);
             startActivity(intent);
         } else if(v==btnSearchByIngredient){
-            String search = searchCoctailText.getText().toString();
+            String search = searchCocktailText.getText().toString();
             Intent intent = new Intent(WelcomeActivity.this, CocktailsListView.class);
             intent.putExtra("search", search);
             startActivity(intent);

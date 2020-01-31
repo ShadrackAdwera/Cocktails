@@ -2,7 +2,7 @@
     <string name="app_name">Cocktail</string>
     <string name="name_app">Cocktails Asf</string>
     <string name="explore">EXPLORE !!!!!</string>
-    <string name="search">Search Cocktail</string>
-    <string name="btn_search_name">Search by name</string>
+    <string name="search">Search Cocktail....</string>
+    <string name="btn_search_name">Search by Name</string>
     <string name="btn_search_ingredient">Search by ingredient...</string>
 </resources>

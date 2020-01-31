@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CocktailsListView"
-    android:background="@color/colorPrimaryText"
     >
 
     <TextView
@@ -13,9 +12,9 @@
         android:textSize="15sp"
         android:text="Search: "
         android:id="@+id/search_results"
-        android:textColor="@color/colorPrimaryLight"
+        android:textColor="@color/colorPrimaryText"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15sp"
+        android:layout_marginBottom="20sp"
         />
     <ListView
         android:layout_width="match_parent"
