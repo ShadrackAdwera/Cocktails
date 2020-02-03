@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -28,6 +29,11 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
     }
     @Override
     public void onClick(View v){
+        if(searchCocktailText.getText().toString().length() < 1 && v==btnSearchByName){
+            Toast.makeText(getApplicationContext(), "Please enter a text", Toast.LENGTH_LONG).show();
+        } else if(searchCocktailText.getText().toString().length() < 1 && v==btnSearchByIngredient){
+            Toast.makeText(getApplicationContext(), "Please enter a text", Toast.LENGTH_LONG).show();
+        }
         if(v==btnSearchByName){
             String search = searchCocktailText.getText().toString();
             Intent intent = new Intent(WelcomeActivity.this, CocktailsListView.class);
