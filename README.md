@@ -79,6 +79,6 @@ Incase of any feedback/comments feel free to contact me at adweshshaddie@gmail.c
 
 ### License
 
-#### Copyright (c) 2019 Shadrack Adwera
+#### Copyright (c) 2020 Shadrack Adwera
 
 #### Licenced under the [MIT License](LICENSE)
