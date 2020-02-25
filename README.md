@@ -16,25 +16,33 @@ The application consumes thecocktaildb API whereby the JSON objects are converte
 
 ## Overview
 
-* On loading the application, a splash screen then the homepage is displayed
+* On loading the application, a splash screen then a log in page is displayed. A user is prompted to create an account if one does not exist, or alternatively sign in with google
 
-     ![resize1](https://user-images.githubusercontent.com/25340965/74100637-5be6d280-4b42-11ea-8ca7-244ac4c92d15.jpg)
+     ![resize1](https://user-images.githubusercontent.com/25340965/75249441-631b0b00-57e7-11ea-98f3-53c2b6dca9d8.jpg) 
+  
+ * The sign up page with user name and password is displayed, once a user opts to chose that method of signing in
+ 
+      ![resize2](https://user-images.githubusercontent.com/25340965/75249762-efc5c900-57e7-11ea-8517-d3dee0e4da37.jpg)
 
-* On click of the button at the bottom, an explicit intent is passed to open the next activity where popular cocktails and different drink categories are displayed
+* After creating an account one is automatically signed in with the username displayed at the top
 
-     ![resize2](https://user-images.githubusercontent.com/25340965/74100651-791ba100-4b42-11ea-99a4-ce9a8ada38a4.jpg)
+     ![resize3](https://user-images.githubusercontent.com/25340965/75250224-eab54980-57e8-11ea-858e-6b4f36bf4a5a.jpg)
 
 * Clicking on a category passes an intent to open a custom fragment which displays the drinks under a category alongside their name
 
-     ![resize3](https://user-images.githubusercontent.com/25340965/74100663-9486ac00-4b42-11ea-8169-b1173920f0af.jpg)
+     ![resize4](https://user-images.githubusercontent.com/25340965/75250281-12a4ad00-57e9-11ea-91c6-601a860b9e6c.jpg)
 
-* A drink and its details, including ingredients and instructions to prepare it can be viewed by clicking on the card holding the drink
+* A drink and its details, including ingredients and instructions to prepare it can be viewed by clicking on the gridview item holding the drink. One can also add a certain drink to a list of favourites by clicking on the favourites button
 
-     ![resize4](https://user-images.githubusercontent.com/25340965/74100689-c13ac380-4b42-11ea-8afc-659cce2932fe.jpg)
+     ![resize5](https://user-images.githubusercontent.com/25340965/75250363-4253b500-57e9-11ea-8614-1261fa6cb916.jpg)
 
-* An implicit intent is used to share a drink name, its recipe and how to prepare it on social media.
+* Favourite drinks can be viewed by clicking on the favourites link on top of the home page. A swipe to delete option has been enabled. A user can also reorder the list by dragging the list item and dropping it to a different index.
 
-     ![resize5](https://user-images.githubusercontent.com/25340965/74100699-cf88df80-4b42-11ea-8fe9-0a3d9246bf22.jpg)
+     ![resize6](https://user-images.githubusercontent.com/25340965/75250527-978fc680-57e9-11ea-908f-ff2d7dcc11b5.jpg)
+     
+ * A search view is also enabled where a user can search for any drink under any category
+ 
+     ![search](https://user-images.githubusercontent.com/25340965/75250737-1422a500-57ea-11ea-8051-c016bbfe7a92.jpg)
 
 ## Installation
 
