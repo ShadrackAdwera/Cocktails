@@ -32,7 +32,7 @@ The application consumes thecocktaildb API whereby the JSON objects are converte
 
      ![resize4](https://user-images.githubusercontent.com/25340965/75250281-12a4ad00-57e9-11ea-91c6-601a860b9e6c.jpg)
 
-* A drink and its details, including ingredients and instructions to prepare it can be viewed by clicking on the gridview item holding the drink. One can also add a certain drink to a list of favourites by clicking on the favourites button
+* A drink and its details, including ingredients and instructions to prepare it can be viewed by clicking on the gridview item holding the drink. One can also add a certain drink to a list of favourites by clicking on the favourites button or share the drink on social media by clicking the share icon at the bottom.
 
      ![resize5](https://user-images.githubusercontent.com/25340965/75250363-4253b500-57e9-11ea-8614-1261fa6cb916.jpg)
 
