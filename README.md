@@ -40,7 +40,7 @@ The application consumes thecocktaildb API whereby the JSON objects are converte
 
      ![resize6](https://user-images.githubusercontent.com/25340965/75250527-978fc680-57e9-11ea-908f-ff2d7dcc11b5.jpg)
      
- * A search view is also enabled where a user can search for any drink under any category
+ * A user can also search for any drink under any category using the search option at the top
  
      ![search](https://user-images.githubusercontent.com/25340965/75250737-1422a500-57ea-11ea-8051-c016bbfe7a92.jpg)
 
